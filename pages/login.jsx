@@ -4,6 +4,8 @@ import ImageWithSpace from "../src/components/layout/ImageWithSpace"
 import H1 from "../src/components/typography/H1"
 import H2 from "../src/components/typography/H2"
 import H4 from "../src/components/typography/H4"
+import Button from "../src/components/inputs/Button"
+import Input from "../src/components/inputs/Input"
 
 
 const FormContainer = styled.div`
@@ -29,9 +31,9 @@ function LoginPage() {
                 <FormContainer>
                     <H2>Entre em sua conta</H2>
                     <Form>
-                        <input placeholder="Email ou usuário" type="email" />
-                        <input placeholder="senha" type="password" />
-                        <button>Entrar</button>
+                        <Input label="Email ou usuário" type="email" />
+                        <Input label="senha" type="password" />
+                        <Button>Entrar</Button>
                     </Form>
                     <Text>Não possui uma conta? <a href="#">Faça seu cadastro</a></Text>
                 </FormContainer>
