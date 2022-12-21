@@ -42,7 +42,7 @@ function HomePage() {
       <Content>
         <Container>
           <CreatePost />
-          <LastPostText>Última postagens:</LastPostText>
+          <LastPostText>Últimas postagens:</LastPostText>
           <RefreshPostsContainer><RefreshPosts >Carregar novas postagens</RefreshPosts></RefreshPostsContainer>
           <PostContainer>
             <Post/>
